@@ -22,7 +22,9 @@ body{
     align-items: flex-end;
     vertical-align: middle;
     width: 400px;
+    max-width: 90vw;
     height: 530px;
+    max-height: 90vh;
     padding: 20px;
     position: relative;
     background: linear-gradient(0deg,#000,#262626);
@@ -87,4 +89,3 @@ input:focus{
 .entry input:hover{
     cursor: auto !important;
 }
-
