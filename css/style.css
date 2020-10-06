@@ -1,0 +1,64 @@
+body{
+    background-color: black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    color: cyan;
+    padding-bottom: 20px;
+}
+
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    vertical-align: middle;
+    width: 350px;
+    height: 450px;
+    padding: 20px;
+    background-color: black;
+}
+
+.mybtn{
+    padding: 7px !important;
+    font-size: 20px;
+}
+input{
+    background: linear-gradient(0deg,#000,#262626);
+    background-size: 200% auto;
+    border: 1px solid cyan;
+    color: cyan;
+    width: 100%;
+    height: 50px;
+}
+
+input::before,input::after{
+    background: linear-gradient(0deg,#000,#262626);
+}
+input:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg,rgb(0,200,200),cyan);
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+
+.entry input{
+    font-weight: 500;
+    color: black;
+    text-align: right;
+    background: linear-gradient(0deg,rgb(0,200,200),cyan);
+}
+.entry input:hover{
+    cursor: auto !important;
+}
+
