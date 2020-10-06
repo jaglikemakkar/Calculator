@@ -54,7 +54,7 @@ input:focus{
 
 .entry input{
     font-weight: 500;
-    font-size: 40px;
+    font-size: 27px;
     color: black;
     text-align: right;
     background: linear-gradient(0deg,rgb(0,200,200),cyan);
